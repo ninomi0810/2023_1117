@@ -29,6 +29,7 @@ export default {
         <RouterLink to="/WatchAndComputed" class="header" :class="{'cass' : this.location === 7}">WatchAndComputed</RouterLink>
         <RouterLink to="/storage" class="header" :class="{'cass' : this.location === 8}">storage</RouterLink>
         <RouterLink to="/Props" class="header" :class="{'cass' : this.location === 9}">Props</RouterLink>
+        <RouterLink to="/Emit" class="header" :class="{'cass' : this.location === 10}">Emit</RouterLink>
     </div>
     <span>{{ location }}</span>
     <span>{{ locationInfo }}</span>

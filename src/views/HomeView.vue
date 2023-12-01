@@ -222,7 +222,7 @@ body {
 
 .face .thank-you-msg {
   position: absolute;
-  width: 200px;
+  width: 80%;
   height: 130px;
   text-align: center;
   font-size: 2em;
@@ -252,15 +252,16 @@ body {
 
 
 .nav {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 36%;
   padding: 0;
+  padding-top: 30px;
 
 }
 
 .nav li {
   display: inline-block;
   list-style-type: none;
-  font-size: 1em;
+  font-size: 25px;
   margin: 0 10px;
   color: #8d6d52;
   position: relative;
@@ -485,9 +486,9 @@ a {
   perspective: 600px;
   text-align: left;
 
-  -webkit-animation: put 2s cubic-bezier(0.29, 1.18, 0.91, 1.68) 1;
+  -webkit-animation: put 1s cubic-bezier(0.29, 1.18, 0.91, 1.68) 1;
 
-  animation: put 2s cubic-bezier(0.29, 1.18, 0.91, 1.68) 1;
+  animation: put 1s cubic-bezier(0.29, 1.18, 0.91, 1.68) 1;
 }
 
 
